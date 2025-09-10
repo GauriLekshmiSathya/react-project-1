@@ -2,12 +2,10 @@ import './App.css'
 import MovieCard from "./components/MovieCard" /*without default --> braces */
 
 function App() {
-    return (
-    <>
-      {movieNo === 1 &&
-      <MovieCard movie = {{title: "Film #1", release_date: "2024"}}/>
-  }
-    </>
+    return(
+      <>
+      
+      </>
     )
 
 } 
@@ -29,7 +27,13 @@ export default App;
     </>
     ) 
 
-    
+    return (
+    <>
+      {movieNo === 1 &&
+      <MovieCard movie = {{title: "Film #1", release_date: "2024"}}/>
+  }
+    </>
+    )
 
   return (
     <> 
